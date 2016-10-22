@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_cuentapago"
+        android:layout_width="387dp"
+        android:layout_height="367dp"
+        android:scrollbars="vertical"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:layout_weight="1.25" />
+
+    <Button
+        android:layout_width="392dp"
+        android:layout_height="96dp"
+        android:text="Pagar"
+        android:id="@+id/buttonpagarcuenta"
+        android:layout_gravity="bottom" />
+
+
+</LinearLayout>

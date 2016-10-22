@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/texto"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:elevation="10dp"
+
+    >
+    <TextView
+
+        android:text="todas las tiendas"
+        android:id="@+id/lblExpenseCancel"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:textColor="#404040"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_marginRight="15dp"
+
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:text="fil"
+        android:id="@+id/filtrotiendas"
+
+        />
+
+</android.support.v7.widget.Toolbar>
